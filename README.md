@@ -1,5 +1,5 @@
 # JobPortal
- - Basic CUI based Job Portal
+ - Basic `CUI` based Job Portal
  - Made using `Python`
  - `MySQL` was used for DBMS.
 
@@ -8,10 +8,15 @@ For proper functioning of this, you must have Python and MySQL installed in your
 <br>
 
 ## Commands for starting:
- - `pip install mysql-connector-python`
- - `pip install secure-smtplib`
- - pickle is pre-installed
- - Run the <a href="https://github.com/PALLADIUM26/JobPortal/blob/main/Main.py">Main.py</a> file by `py Main.py`
+```
+pip install mysql-connector-python
+pip install secure-smtplib
+```
+pickle is pre-installed<BR>
+Run the <a href="https://github.com/PALLADIUM26/JobPortal/blob/main/Main.py">Main.py</a> file by:
+```
+py Main.py
+```
 
 <br>
 
@@ -44,45 +49,66 @@ For proper functioning of this, you must have Python and MySQL installed in your
  - Connects database
  - Redirect to Sign up/ Sign in page
 ### 3. <a href="https://github.com/PALLADIUM26/JobPortal/blob/main/sign_up.py">sign_up.py</a>
- - #### sup()
+ - #### `sup()`
    - Takes user credentials as input
    - Sends `OTP` to entered mail id for verification
    - Stores user credentials in database
- - #### super()
+ - #### `super()`
    - Takes details of Employer as input
- - #### signupEmployer()
+ - #### `signupEmployer()`
    - Stores entered details of Employer
- - #### supee()
+ - #### `supee()`
    - Takes details of Employee as input
    - Stores entered details of Employee in database
 ### 4. <a href="https://github.com/PALLADIUM26/JobPortal/blob/main/sign_in.py">sign_in.py</a>
- - #### sin()
+ - #### `sin()`
    - Signs in user if correct credentials are entered
    - Allows to change password if forgotten by user by email verification
 ### 5. <a href="https://github.com/PALLADIUM26/JobPortal/blob/main/loge.py">loge.py</a>
- - #### loge()
- - #### tabe()
- - #### tabeall()
+ - #### `loge()`
+   - Shows options for logged in Employer
+ - #### `tabe()`
+   - Search jobs according to need of Employer
+   - Apply to job
+ - #### `tabeall()`
+   - Search all jobs
+   - Apply to jobs
 ### 6. <a href="https://github.com/PALLADIUM26/JobPortal/blob/main/logr.py">logr.py</a>
- - #### logr()
- - #### tabr()
- - #### appr()
+ - #### `logr()`
+   - Shows options for logged in Employer
+ - #### `tabr()`
+   - Post jobs
+ - #### `appr()`
+   - Check submitted applications
+   - Send mail to selected candidate
 ### 7. <a href="https://github.com/PALLADIUM26/JobPortal/blob/main/admh.py">admh.py</a>
- - #### admh()
- - #### admdet()
- - #### showdata()
+ - #### `admh()`
+   - Shows options for logged in Admin
+   - Add new admin
+ - #### `admdet()`
+   - Edit details of Admin
+ - #### `showdata()`
+   - Shows stored data in database for maintainence
 ### 8. <a href="https://github.com/PALLADIUM26/JobPortal/blob/main/funcs.py">funcs.py</a>
- - #### notsame()
- - #### inp()
- - #### fetver()
- - #### sendmail()
+ - #### `notsame()`
+   - Check and take valid input from user 
+ - #### `inp()`
+   - Store credentials of users in database
+ - #### `fetver()`
+   - Fetch values from databases
+ - #### `sendmail()`
+   - Send OTP for mail verification while sign up
+   - Send mail to employers selected by employee
 ### 9. <a href="https://github.com/PALLADIUM26/JobPortal/blob/main/employerprofile.py">employerprofile.py</a>
- - #### pror()
- - #### editr()
+ - #### `pror()`
+   - See details of employer profile
+ - #### `editr()`
+   - Edit details of employer profile
 ### 10. <a href="https://github.com/PALLADIUM26/JobPortal/blob/main/employeeprofile.py">employeeprofile.py</a>
- - #### proe()
- - #### edite()
-
+ - #### `proe()`
+   - See details of employee profile
+ - #### `edite()`
+   - Edit details of employee profile
 <br>
 
 This project is not complete and still needs to add more functionalities and make it better.
